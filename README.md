@@ -1,2 +1,1 @@
-# Dart - Hello Dart
-
+# Holberton School Web Dart
