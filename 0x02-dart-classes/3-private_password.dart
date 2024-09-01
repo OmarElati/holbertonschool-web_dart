@@ -1,7 +1,7 @@
 class Password {
   String? _password;
 
-  Password({required String? password}) : _password = password;
+  Password({String? password}) : _password = password;
 
   bool isValid() {
     if (_password == null) return false;
@@ -14,6 +14,6 @@ class Password {
 
   @override
   String toString() {
-    return 'Your Password is $_password';
+    return 'Your Password is: $_password';
   }
 }
